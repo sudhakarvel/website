@@ -16,7 +16,7 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <version>3.3.2</version>
                 <configuration>
-			        <failOnMissingWebXml>true</failOnMissingWebXml>
+			        <failOnMissingWebXml>false</failOnMissingWebXml>
                     <!-- Specify the webapp directory -->
                     <webResources>
                         <resource>
